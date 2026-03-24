@@ -1,0 +1,38 @@
+# === Data (large files) ===
+**/data/MNIST/
+**/data/datasets/
+**/data/QG_jets*.npz
+*.hdf5
+
+# === Secrets ===
+.env
+.env.*
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# === Jupyter ===
+.ipynb_checkpoints/
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === LaTeX build artifacts ===
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
